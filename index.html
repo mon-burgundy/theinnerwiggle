@@ -3,15 +3,184 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Inner Wiggle</title>
+<title>The Inner Wiggle · Systemic coaching with Monique Pattison</title>
+<meta name="description" content="Systemic coaching in Berlin and online. Monique Pattison works with people going through change, using parts work to see what's driving them and choose a different response.">
+<link rel="stylesheet" href="fonts/fonts.css">
 <style>
-  html,body{height:100%;margin:0}
-  body{display:grid;place-items:center;padding:16px;box-sizing:border-box;text-align:center;
-    background:#fff;color:#111;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
-  h1{font-weight:400;font-size:clamp(1.8rem,5vw,3rem);letter-spacing:-.01em;margin:0}
+:root{--bg:#FAF6F0;--field:#F2E6D8;--ink:#221E1A;--muted:#5E5650;--accent:#C2603E;--line:#D9CBBB}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;font-size:17px;line-height:1.65}
+a{color:var(--ink);text-underline-offset:3px}a:hover{color:var(--accent)}
+.wrap{max-width:1080px;margin:0 auto;padding-left:24px;padding-right:24px}
+h1,h2,h3,.brand{font-family:'Inter Tight',sans-serif;font-weight:500;letter-spacing:-0.02em}
+h1{margin:0;font-size:clamp(40px,6.4vw,84px);line-height:1.02;letter-spacing:-0.035em;max-width:900px}
+h2{margin:0 0 24px;font-size:clamp(30px,4vw,44px);line-height:1.1}
+h3{margin:0 0 8px;font-size:22px}
+p{margin:0 0 14px}
+.lede{font-size:20px;line-height:1.55;color:var(--muted);max-width:620px}
+.eyebrow{font-size:14px;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted)}
+.btn{display:inline-flex;align-items:center;min-height:48px;padding:14px 28px;border-radius:999px;background:var(--ink);color:var(--bg);text-decoration:none;font-family:'Inter Tight',sans-serif;font-weight:500;font-size:16px}
+.btn:hover{background:var(--accent);color:#fff}
+header.top{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;padding-top:28px;padding-bottom:28px}
+.brand{font-weight:600;font-size:18px;letter-spacing:-0.01em;text-decoration:none}
+nav{display:flex;flex-wrap:wrap;gap:24px;font-size:15px}
+nav a{text-decoration:none}
+section{padding:96px 0}
+.hero{padding:72px 0 88px;display:flex;flex-direction:column;gap:32px}
+.wiggle{display:block;width:min(420px,80%);height:auto;color:var(--accent)}
+.field{background:var(--field)}
+.feels{list-style:none;padding:0;margin:0;display:grid;gap:0;max-width:760px}
+.feels li{padding:18px 0 18px 36px;border-top:1px solid var(--line);position:relative;font-size:19px}
+.feels li:last-child{border-bottom:1px solid var(--line)}
+.feels li::before{content:"";position:absolute;left:0;top:30px;width:20px;height:2px;background:var(--accent);border-radius:2px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:40px;margin-top:48px}
+.step-n{font-family:'Inter Tight',sans-serif;color:var(--accent);font-size:15px;margin-bottom:8px}
+.note{margin-top:48px;max-width:720px;color:var(--muted)}
+.room{background:var(--bg);border:1px solid var(--line);border-radius:24px;padding:clamp(24px,5vw,56px);display:grid;gap:32px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.room ul{margin:0;padding-left:20px}
+.room li{margin-bottom:8px}
+.price{font-family:'Inter Tight',sans-serif;font-size:26px;letter-spacing:-0.01em;margin:24px 0}
+.quotes{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:32px}
+.quotes blockquote{margin:0;padding:28px;background:var(--field);border-radius:20px}
+.about{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:48px}
+.training{list-style:none;margin:0;padding:0}
+.training li{padding:14px 0;border-top:1px solid var(--line)}
+.training span{display:block;color:var(--muted);font-size:15px}
+.closing{text-align:center;padding:120px 0}
+.closing .lede{margin:0 auto 32px}
+footer{border-top:1px solid var(--line);padding:32px 0 48px;font-size:15px;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:16px 28px;justify-content:space-between}
+footer nav{gap:20px}
 </style>
 </head>
 <body>
-<h1>Under construction</h1>
+
+<header class="wrap top">
+<a class="brand" href="#">The Inner Wiggle</a>
+<nav>
+<a href="#how">How I work</a>
+<a href="#coaching">Coaching</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<main>
+<section class="wrap hero">
+<div class="eyebrow">Systemic coaching · Berlin and online</div>
+<h1>You know something has to shift. You just can't see it from inside.</h1>
+<svg class="wiggle" viewBox="0 0 420 40" fill="none" aria-hidden="true"><path d="M2 22c22-18 40-18 58 0s38 18 58 0 38-18 58 0 38 18 58 0 38-18 58 0 38 18 58 0 30-12 40-6" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+<p class="lede">I'm Monique, a certified systemic coach. I work with people in the middle of change, helping them see what's really driving them and choose what happens next.</p>
+<div><a class="btn" href="mailto:pattison.monique@gmail.com?subject=Coaching%20enquiry">Write to me</a></div>
+</section>
+
+<section class="field">
+<div class="wrap">
+<h2>Maybe it feels a bit like this</h2>
+<ul class="feels">
+<li>You're facing a career move or a new role, and you're not sure which way is yours.</li>
+<li>The same pattern keeps getting in the way, at work or in your relationships.</li>
+<li>One part of you takes over in certain moments, and you'd like to respond differently.</li>
+<li>Your life needs reshaping, but you can't yet name what the new shape is.</li>
+<li>You know something has to change, and you've run out of ways to think it through on your own.</li>
+</ul>
+<p class="note">None of that means something's wrong with you. It usually means different parts of you want different things. That's where we start.</p>
+</div>
+</section>
+
+<section class="wrap" id="how">
+<h2>How I work</h2>
+<p class="lede">My core method is systemic coaching with parts work, sometimes called the inner team. We all have different inner parts with their own voice and agenda. Once you can see them, you get to choose.</p>
+<div class="steps">
+<div>
+<div class="step-n">01</div>
+<h3>Map your inner team</h3>
+<p>We name the parts that drive how you act: the cautious one, the driven one, the one that wants to run away. All of them are welcome.</p>
+</div>
+<div>
+<div class="step-n">02</div>
+<h3>Notice who's in charge</h3>
+<p>You learn to spot which part is active in a given situation, in the moment rather than afterwards.</p>
+</div>
+<div>
+<div class="step-n">03</div>
+<h3>Practise a new response</h3>
+<p>From there, we practise choosing differently, in the real situations you bring to each session.</p>
+</div>
+</div>
+<p class="note">The work is present-day and practical. It's coaching, not therapy, and I keep that line clear. My practice is also informed by yoga and yogic philosophy, which I draw on where it helps.</p>
+</section>
+
+<section class="field" id="coaching">
+<div class="wrap">
+<h2>Coaching with me</h2>
+<div class="room">
+<div>
+<h3>1:1 coaching, over three months</h3>
+<p>For people going through change who want a steady space to think it through, and a partner who'll gently challenge them along the way.</p>
+<p class="price">Packages from €1,500 per month</p>
+<a class="btn" href="mailto:pattison.monique@gmail.com?subject=Coaching%20enquiry">Ask about coaching</a>
+</div>
+<div>
+<ul>
+<li>Six sessions of 90 minutes, every other week</li>
+<li>In person in Berlin, or online</li>
+<li>We start by agreeing a goal for our time together</li>
+<li>We check in on it as we go, and look back together at the end</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Testimonials: switch on when Monique has 2–3 real quotes (first name + role, with permission).
+<section class="wrap">
+<h2>Words from people who've done the work</h2>
+<div class="quotes">
+<blockquote><p>"Quote one."</p><cite>Name, role</cite></blockquote>
+<blockquote><p>"Quote two."</p><cite>Name, role</cite></blockquote>
+<blockquote><p>"Quote three."</p><cite>Name, role</cite></blockquote>
+</div>
+</section>
+-->
+
+<section class="wrap" id="about">
+<div class="about">
+<div>
+<h2>About me</h2>
+<p>I'm Monique Pattison, a systemic coach based in Berlin. I trained at Artop in Berlin from 2023, coached practice clients through 2025 and 2026, and certified in 2026.</p>
+<p>I work with people at turning points, when they know something has to shift but can't see it clearly from inside. My job is to help you see it, and then to help you act on it.</p>
+</div>
+<div>
+<div class="eyebrow" style="margin-bottom:12px">Training</div>
+<ul class="training">
+<li>Systemic Coach certification<span>Artop, Berlin · 2026</span></li>
+<li>200-hour yoga teacher training<span>2025</span></li>
+</ul>
+</div>
+</div>
+</section>
+
+<section class="field closing" id="contact">
+<div class="wrap">
+<h2>You've read this far. That means something.</h2>
+<p class="lede">Write to me with a few lines about what's going on, and we'll find a time to talk about whether working together makes sense.</p>
+<a class="btn" href="mailto:pattison.monique@gmail.com?subject=Coaching%20enquiry">Write to me</a>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap">
+<div>© 2026 Monique Pattison · The Inner Wiggle</div>
+<nav>
+<a href="mailto:pattison.monique@gmail.com">pattison.monique@gmail.com</a>
+<a href="impressum.html">Impressum</a>
+<a href="datenschutz.html">Datenschutz</a>
+</nav>
+</div>
+</footer>
+
 </body>
 </html>
